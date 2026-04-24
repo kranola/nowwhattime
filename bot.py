@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from datetime import datetime
 import pytz
 
-TOKEN = os.getenv("8789015938:AAF-TR7Q-wcerI3juB4jq5tdmw3o7Y7tFVk")
+TOKEN = "8789015938:AAF-TR7Q-wcerI3juB4jq5tdmw3o7Y7tFVk"
 
 async def time_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     kelowna_tz = pytz.timezone("America/Vancouver")
